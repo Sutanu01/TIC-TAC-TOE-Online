@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories
+coverage/        # Output from code coverage tools like Jest
+build/           # Build files if using a bundler or compiler like Webpack or Babel
+dist/            # Distribution files (for front-end frameworks)
+out/             # Output from some tools and compilers
+
+# Temporary files
+temp/
+.tmp/
+
+# Cache directories
+.cache/
+.pnpm-store/
