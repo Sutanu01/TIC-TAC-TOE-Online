@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import { PlayArrow as PLayArrowIcon } from "@mui/icons-material";
-import ScareCrow from "../assets/ScareCrow.png";
+import ScareCrow from "../assets/scareCrow.png";
 import {useNavigate} from "react-router-dom";
 import socket from "../socket/socket";
 
