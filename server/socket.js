@@ -7,7 +7,7 @@ const gameRooms = {};
 module.exports = (server) => {
   const io = socketIO(server, {
     cors: {
-      origin: `http://localhost:${process.env.CLIENT_PORT}`,
+      origin: process.env.CLIENT_PORT,
       methods: ["GET", "POST"],
     },
   });
