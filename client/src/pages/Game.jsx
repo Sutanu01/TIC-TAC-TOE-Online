@@ -140,12 +140,11 @@ const Game = () => {
                 width: "70%",
               }}
             >
-              <div className="player-1 player-box">
+              <div className="player-box">
                 <div
                   style={{
                     background: "#002D62",
                     color: "white",
-                    width: "100%",
                     padding: "0.3rem 1rem",
                     textAlign: "center",
                     width: "5rem",
@@ -166,12 +165,11 @@ const Game = () => {
                   {sign}
                 </div>
               </div>
-              <div className="player-2 player-box">
+              <div className="player-box">
                 <div
                   style={{
                     background: "#002D62",
                     color: "white",
-                    width: "100%",
                     padding: "0.3rem 1rem",
                     textAlign: "center",
                     width: "5rem",
