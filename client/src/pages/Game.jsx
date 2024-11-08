@@ -25,8 +25,6 @@ const Game = () => {
       setTurn(gameRoom.turn);
     };
     const handleOpponentDisconnected = () => {
-      resetGame();
-      setWaiting(false);
       setShowDialog(true);
     };
     socket.on("user-details", handleUserDetails);
