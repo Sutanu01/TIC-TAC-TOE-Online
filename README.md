@@ -18,7 +18,7 @@ This is a real-time, multiplayer Tic-Tac-Toe game built with **React.js**, **Soc
 
 ## How to Play
 
-1. Visit the app [here](https://your-app-url.com).
+1. Visit the app [here](https://tic-tac-toe-online-iota.vercel.app/).
 2. Enter your username on the home screen.
 3. Wait for another player to join or invite a friend to play.
 4. Once both players are ready, the game will start automatically.
