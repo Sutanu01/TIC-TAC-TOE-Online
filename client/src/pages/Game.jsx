@@ -26,6 +26,7 @@ const Game = () => {
     };
     const handleOpponentDisconnected = () => {
       resetGame();
+      setWaiting(false);
       setShowDialog(true);
     };
     socket.on("user-details", handleUserDetails);
@@ -54,10 +55,10 @@ const Game = () => {
     setSign("");
     setWinner(null);
     setGameBoard(Array(9).fill(null))
-    setWaiting(true);
   }
   const handleReturnHome = () => {
     resetGame();
+    setWaiting(true);
     navigate("/");
   }
   const handleMove = (index) => {
