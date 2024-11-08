@@ -48,7 +48,10 @@ const Game = () => {
     };
   }, []);
 
-
+  const handleDialogResponse=()=>{
+    setShowDialog(false);
+    resetGame();
+  }
   const resetGame = () => {
     setOpponent("");
     setUserName("");
@@ -132,7 +135,7 @@ const Game = () => {
               overflowY: "auto",
             }}
           >
-            {ShowDialog&&<DissconnectionDialog setShowDialog={setShowDialog}/>}
+            {ShowDialog&&<DissconnectionDialog handleDialogResponse={handleDialogResponse}/>}
             <div
               style={{
                 display: "flex",

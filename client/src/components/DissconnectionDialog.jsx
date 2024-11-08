@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-const DissconnectionDialog = ({setShowDialog}) => {
+const DissconnectionDialog = ({handleDialogResponse}) => {
     const navigate = useNavigate();
     const handleReturnHome = () => {
-        setShowDialog(false);
+      handleDialogResponse();
         navigate("/");
     }
   return (
